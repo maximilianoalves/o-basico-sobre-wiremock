@@ -1,0 +1,36 @@
+{
+  "id" : "c8fe999b-bac0-3fb5-983c-23b1dbc664a7",
+  "request" : {
+    "url" : "/users/maximilianoalves",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-users-maximilianoalves-bTLQa.json",
+    "headers" : {
+      "Server" : "GitHub.com",
+      "Date" : "Tue, 14 Nov 2017 20:03:20 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Transfer-Encoding" : "chunked",
+      "Status" : "200 OK",
+      "X-RateLimit-Limit" : "60",
+      "X-RateLimit-Remaining" : "54",
+      "X-RateLimit-Reset" : "1510693129",
+      "Cache-Control" : "public, max-age=60, s-maxage=60",
+      "Vary" : "Accept",
+      "ETag" : "W/\"447766d5062f690e0ad89ae810d77286\"",
+      "Last-Modified" : "Tue, 14 Nov 2017 04:14:31 GMT",
+      "X-GitHub-Media-Type" : "unknown, github.v3",
+      "Access-Control-Expose-Headers" : "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+      "Access-Control-Allow-Origin" : "*",
+      "Content-Security-Policy" : "default-src 'none'",
+      "Strict-Transport-Security" : "max-age=31536000; includeSubdomains; preload",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Frame-Options" : "deny",
+      "X-XSS-Protection" : "1; mode=block",
+      "X-Runtime-rack" : "0.039774",
+      "X-GitHub-Request-Id" : "C181:2284:330011:70BAF9:5A0B4C06"
+    }
+  },
+  "uuid" : "c8fe999b-bac0-3fb5-983c-23b1dbc664a7"
+}

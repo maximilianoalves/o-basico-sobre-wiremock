@@ -1,0 +1,37 @@
+{
+  "id" : "79741983-0670-4512-bfab-00b110418ca8",
+  "name" : "users_maximilianoalves",
+  "request" : {
+    "url" : "/users/maximilianoalves",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\n  \"login\": \"maximilianoalves\",\n  \"id\": 11561118,\n  \"avatar_url\": \"https://avatars3.githubusercontent.com/u/11561118?v=4\",\n  \"gravatar_id\": \"\",\n  \"url\": \"https://api.github.com/users/maximilianoalves\",\n  \"html_url\": \"https://github.com/maximilianoalves\",\n  \"followers_url\": \"https://api.github.com/users/maximilianoalves/followers\",\n  \"following_url\": \"https://api.github.com/users/maximilianoalves/following{/other_user}\",\n  \"gists_url\": \"https://api.github.com/users/maximilianoalves/gists{/gist_id}\",\n  \"starred_url\": \"https://api.github.com/users/maximilianoalves/starred{/owner}{/repo}\",\n  \"subscriptions_url\": \"https://api.github.com/users/maximilianoalves/subscriptions\",\n  \"organizations_url\": \"https://api.github.com/users/maximilianoalves/orgs\",\n  \"repos_url\": \"https://api.github.com/users/maximilianoalves/repos\",\n  \"events_url\": \"https://api.github.com/users/maximilianoalves/events{/privacy}\",\n  \"received_events_url\": \"https://api.github.com/users/maximilianoalves/received_events\",\n  \"type\": \"User\",\n  \"site_admin\": false,\n  \"name\": \"Maximiliano Alves da Cruz\",\n  \"company\": null,\n  \"blog\": \"maxalves.com.br\",\n  \"location\": \"Sapucaia do Sul, RS\",\n  \"email\": null,\n  \"hireable\": null,\n  \"bio\": \"QA Automation at CWI Software.\",\n  \"public_repos\": 53,\n  \"public_gists\": 4,\n  \"followers\": 11,\n  \"following\": 15,\n  \"created_at\": \"2015-03-19T19:01:07Z\",\n  \"updated_at\": \"2017-11-14T04:14:31Z\"\n}\n",
+    "headers" : {
+      "Server" : "GitHub.com",
+      "Date" : "Tue, 14 Nov 2017 20:03:20 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Status" : "200 OK",
+      "X-RateLimit-Limit" : "60",
+      "X-RateLimit-Remaining" : "54",
+      "X-RateLimit-Reset" : "1510693129",
+      "Cache-Control" : "public, max-age=60, s-maxage=60",
+      "Vary" : "Accept",
+      "ETag" : "W/\"447766d5062f690e0ad89ae810d77286\"",
+      "Last-Modified" : "Tue, 14 Nov 2017 04:14:31 GMT",
+      "X-GitHub-Media-Type" : "unknown, github.v3",
+      "Access-Control-Expose-Headers" : "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+      "Access-Control-Allow-Origin" : "*",
+      "Content-Security-Policy" : "default-src 'none'",
+      "Strict-Transport-Security" : "max-age=31536000; includeSubdomains; preload",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Frame-Options" : "deny",
+      "X-XSS-Protection" : "1; mode=block",
+      "X-Runtime-rack" : "0.039774",
+      "X-GitHub-Request-Id" : "C181:2284:330011:70BAF9:5A0B4C06"
+    }
+  },
+  "uuid" : "79741983-0670-4512-bfab-00b110418ca8",
+  "persistent" : true
+}
