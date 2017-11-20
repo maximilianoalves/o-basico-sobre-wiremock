@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope 
+    xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Header>
+        <WorkContext 
+            xmlns="http://oracle.com/weblogic/soap/workarea/">rO0ABXdlACt3ZWJsb2dpYy5hcHAubWVkaWFkb3ItY2xpZW50ZS1lYXItMy4wLjEtUkMxAAAA1gAAACN3ZWJsb2dpYy53b3JrYXJlYS5TdHJpbmdXb3JrQ29udGV4dAAJMy4wLjEtUkMxAAA=
+        </WorkContext>
+    </S:Header>
+    <S:Body>
+        <ns0:outCliente 
+            xmlns:ns2="http://ws.mediador.lojasrenner.com.br/types/MediadorComplexTypes/V3" 
+            xmlns:ns0="http://ws.mediador.lojasrenner.com.br/types/ClienteService/V3">
+            <ns2:status>
+                <ns2:codigo>S00300001</ns2:codigo>
+                <ns2:mensagem>Transação realizada com sucesso.</ns2:mensagem>
+            </ns2:status>
+            <ns2:total-registros>1</ns2:total-registros>
+            <ns0:lista-clientes>
+                <ns0:cliente>
+                    <ns0:nome-cliente>KELLY CHRISTINA SINATRA</ns0:nome-cliente>
+                    <ns0:tipo>A</ns0:tipo>
+                    <ns0:cpf>$(Body.inConsultarPorCpf.cpf)</ns0:cpf>
+                    <ns0:conta>$(!RandomInteger)</ns0:conta>
+                    <ns0:data-nascimento>1981-01-13-03:00</ns0:data-nascimento>
+                    <ns0:codigo-adicional>1</ns0:codigo-adicional>
+                    <ns0:nome-titular>ROSMEIRE MONTONI SINATRA</ns0:nome-titular>
+                    <ns0:processadora-atual>TOTVSCARD</ns0:processadora-atual>
+                    <ns0:processadora-origem>LEGADO</ns0:processadora-origem>
+                    <ns0:cpf-titular>28069618825</ns0:cpf-titular>
+                    <ns0:flag-adicional>NAO</ns0:flag-adicional>
+                </ns0:cliente>
+            </ns0:lista-clientes>
+        </ns0:outCliente>
+    </S:Body>
+</S:Envelope>

@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/imprimir/b4e7c934-2511-5cb6-ae1f-f8faf629358e08356765013"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "Content-Type": "application/pdf"
+        },
+        "bodyFileName": "sample.pdf"
+    }
+}

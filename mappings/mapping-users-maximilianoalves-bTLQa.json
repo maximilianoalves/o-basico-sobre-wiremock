@@ -1,7 +1,7 @@
 {
-  "id" : "c8fe999b-bac0-3fb5-983c-23b1dbc664a7",
+  "priority": 1,
   "request" : {
-    "url" : "/users/maximilianoalves",
+    "url" : "/users/maximilianoalves/1",
     "method" : "GET"
   },
   "response" : {
