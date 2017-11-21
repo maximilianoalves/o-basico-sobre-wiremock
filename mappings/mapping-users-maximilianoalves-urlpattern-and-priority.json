@@ -1,26 +1,25 @@
 {
-  "priority": 1,
+  "priority" : 2,
   "request" : {
-    "url" : "/users/maximilianoalves/1",
+    "urlPathPattern": "/users/([a-z]*)",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-users-maximilianoalves-bTLQa.json",
+    "bodyFileName" : "body-users-maximilianoalves-urlpattern-and-priority.json",
     "headers" : {
       "Server" : "GitHub.com",
-      "Date" : "Tue, 14 Nov 2017 20:03:20 GMT",
+      "Date" : "Mon, 20 Nov 2017 23:25:07 GMT",
       "Content-Type" : "application/json; charset=utf-8",
-      "Transfer-Encoding" : "chunked",
       "Status" : "200 OK",
       "X-RateLimit-Limit" : "60",
-      "X-RateLimit-Remaining" : "54",
-      "X-RateLimit-Reset" : "1510693129",
+      "X-RateLimit-Remaining" : "58",
+      "X-RateLimit-Reset" : "1511223864",
       "Cache-Control" : "public, max-age=60, s-maxage=60",
       "Vary" : "Accept",
-      "ETag" : "W/\"447766d5062f690e0ad89ae810d77286\"",
+      "ETag" : "\"fab500b9c09c0fc5bca09e313d326ba7\"",
       "Last-Modified" : "Tue, 14 Nov 2017 04:14:31 GMT",
-      "X-GitHub-Media-Type" : "unknown, github.v3",
+      "X-GitHub-Media-Type" : "github.v3; format=json",
       "Access-Control-Expose-Headers" : "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
       "Access-Control-Allow-Origin" : "*",
       "Content-Security-Policy" : "default-src 'none'",
@@ -28,9 +27,9 @@
       "X-Content-Type-Options" : "nosniff",
       "X-Frame-Options" : "deny",
       "X-XSS-Protection" : "1; mode=block",
-      "X-Runtime-rack" : "0.039774",
-      "X-GitHub-Request-Id" : "C181:2284:330011:70BAF9:5A0B4C06"
+      "X-Runtime-rack" : "0.029739",
+      "X-GitHub-Request-Id" : "E5A7:2E33F:A0FBEA:15520D5:5A136453"
     }
   },
-  "uuid" : "c8fe999b-bac0-3fb5-983c-23b1dbc664a7"
+  "uuid" : "c03a6c5c-9978-342e-a942-4e96d4a043b2"
 }
