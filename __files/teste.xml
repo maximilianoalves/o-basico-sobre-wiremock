@@ -23,10 +23,10 @@
                     <ns0:conta>$(!RandomInteger)</ns0:conta>
                     <ns0:data-nascimento>1981-01-13-03:00</ns0:data-nascimento>
                     <ns0:codigo-adicional>1</ns0:codigo-adicional>
-                    <ns0:nome-titular>ROSMEIRE MONTONI SINATRA</ns0:nome-titular>
-                    <ns0:processadora-atual>TOTVSCARD</ns0:processadora-atual>
+                    <ns0:nome-titular>UM NOME QUALQUER</ns0:nome-titular>
+                    <ns0:processadora-atual>CARD</ns0:processadora-atual>
                     <ns0:processadora-origem>LEGADO</ns0:processadora-origem>
-                    <ns0:cpf-titular>28069618825</ns0:cpf-titular>
+                    <ns0:cpf-titular>12309480939</ns0:cpf-titular>
                     <ns0:flag-adicional>NAO</ns0:flag-adicional>
                 </ns0:cliente>
             </ns0:lista-clientes>

@@ -1,0 +1,27 @@
+{
+  "request" : {
+    "url" : "/SigepMasterJPA/AtendeClienteService/AtendeCliente",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "xPathNamespaces": {
+        "cli": "http://cliente.bean.master.sigep.bsb.correios.com.br/"
+      },
+      "matchesXPath" : "//*/cep"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-consulta-cep-soap.xml",
+    "headers" : {
+      "Date" : "Mon, 20 Nov 2017 22:16:10 GMT",
+      "X-OPNET-Transaction-Trace" : "a2_5d659ad7-aa77-4f5f-a8b0-6cc5ab81ac9d",
+      "Content-Type" : "text/xml;charset=UTF-8",
+      "Vary" : "Accept-Encoding,User-Agent",
+      "Set-Cookie" : [ "sto-id-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Mon, 20-Nov-2017 22:36:10 GMT; Path=/", "sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=KPABKIMA; Expires=Mon, 20-Nov-2017 22:36:10 GMT; Path=/" ],
+      "Keep-Alive" : "timeout=5, max=9999",
+      "Connection" : "Keep-Alive"
+    },
+    "transformers": ["body-transformer"]
+  },
+  "uuid" : "1e291b76-85f1-3e00-83d7-f7fb4adb2744"
+}

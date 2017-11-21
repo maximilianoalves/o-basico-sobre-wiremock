@@ -29,7 +29,8 @@
       "X-XSS-Protection" : "1; mode=block",
       "X-Runtime-rack" : "0.029739",
       "X-GitHub-Request-Id" : "E5A7:2E33F:A0FBEA:15520D5:5A136453"
-    }
+    },
+    "transformers": ["response-template"]
   },
   "uuid" : "c03a6c5c-9978-342e-a942-4e96d4a043b2"
 }

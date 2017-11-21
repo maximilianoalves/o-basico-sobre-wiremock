@@ -1,0 +1,12 @@
+{
+  "request": {
+      "method": "GET",
+      "urlPattern": "/c/masculino"
+  },
+  "response": {
+      "proxyBaseUrl" : "http://m.lojasrenner.com.br",
+      "additionalProxyRequestHeaders": {
+          "User-Agent": "Mozilla/5.0 (iPhone; U; CPU iPhone)"
+      }
+  }
+}
