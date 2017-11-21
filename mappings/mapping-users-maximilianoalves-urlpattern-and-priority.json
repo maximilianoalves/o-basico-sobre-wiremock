@@ -1,36 +1,42 @@
 {
-  "priority" : 2,
-  "request" : {
+  "priority": 2,
+  "request": {
     "urlPathPattern": "/users/([a-z]*)",
-    "method" : "GET"
+    "method": "GET"
   },
-  "response" : {
-    "status" : 200,
-    "bodyFileName" : "body-users-maximilianoalves-urlpattern-and-priority.json",
-    "headers" : {
-      "Server" : "GitHub.com",
-      "Date" : "Mon, 20 Nov 2017 23:25:07 GMT",
-      "Content-Type" : "application/json; charset=utf-8",
-      "Status" : "200 OK",
-      "X-RateLimit-Limit" : "60",
-      "X-RateLimit-Remaining" : "58",
-      "X-RateLimit-Reset" : "1511223864",
-      "Cache-Control" : "public, max-age=60, s-maxage=60",
-      "Vary" : "Accept",
-      "ETag" : "\"fab500b9c09c0fc5bca09e313d326ba7\"",
-      "Last-Modified" : "Tue, 14 Nov 2017 04:14:31 GMT",
-      "X-GitHub-Media-Type" : "github.v3; format=json",
-      "Access-Control-Expose-Headers" : "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
-      "Access-Control-Allow-Origin" : "*",
-      "Content-Security-Policy" : "default-src 'none'",
-      "Strict-Transport-Security" : "max-age=31536000; includeSubdomains; preload",
-      "X-Content-Type-Options" : "nosniff",
-      "X-Frame-Options" : "deny",
-      "X-XSS-Protection" : "1; mode=block",
-      "X-Runtime-rack" : "0.029739",
-      "X-GitHub-Request-Id" : "E5A7:2E33F:A0FBEA:15520D5:5A136453"
+  "response": {
+    "status": 200,
+    "bodyFileName": "body-users-maximilianoalves-urlpattern-and-priority.json",
+    "headers": {
+      "Server": "GitHub.com",
+      "Date": "Mon, 20 Nov 2017 23:25:07 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Status": "200 OK",
+      "X-RateLimit-Limit": "60",
+      "X-RateLimit-Remaining": "58",
+      "X-RateLimit-Reset": "1511223864",
+      "Cache-Control": "public, max-age=60, s-maxage=60",
+      "Vary": "Accept",
+      "ETag": "\"fab500b9c09c0fc5bca09e313d326ba7\"",
+      "Last-Modified": "Tue, 14 Nov 2017 04:14:31 GMT",
+      "X-GitHub-Media-Type": "github.v3; format=json",
+      "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Security-Policy": "default-src 'none'",
+      "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "deny",
+      "X-XSS-Protection": "1; mode=block",
+      "X-Runtime-rack": "0.029739",
+      "X-GitHub-Request-Id": "E5A7:2E33F:A0FBEA:15520D5:5A136453"
     },
-    "transformers": ["response-template"]
+    "transformers": [
+      "response-template",
+      "body-transformer"
+    ],
+    "transformerParameters": {
+      "urlRegex": "/users/(?<user>.*?)"
+    }
   },
-  "uuid" : "c03a6c5c-9978-342e-a942-4e96d4a043b2"
+  "uuid": "c03a6c5c-9978-342e-a942-4e96d4a043b2"
 }

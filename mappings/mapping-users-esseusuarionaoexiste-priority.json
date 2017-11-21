@@ -6,7 +6,7 @@
   },
   "response" : {
     "status" : 404,
-    "bodyFileName" : "body-users-esseusuarionaoexiste-priority.json.json",
+    "bodyFileName" : "body-users-esseusuarionaoexiste-priority.json",
     "headers" : {
       "Server" : "GitHub.com",
       "Date" : "Mon, 20 Nov 2017 23:33:41 GMT",
