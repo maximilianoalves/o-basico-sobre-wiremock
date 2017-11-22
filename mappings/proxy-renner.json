@@ -1,7 +1,7 @@
 {
   "request": {
       "method": "GET",
-      "urlPattern": "/c/masculino"
+      "urlPattern": "/"
   },
   "response": {
       "proxyBaseUrl" : "http://m.lojasrenner.com.br",

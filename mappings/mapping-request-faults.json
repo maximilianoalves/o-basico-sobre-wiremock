@@ -1,0 +1,42 @@
+{
+  "priority": 1,
+  "request": {
+    "urlPathPattern": "/simulate",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    //delay fixo
+    "fixedDelayMilliseconds": 2000,
+    //20ms+/-5ms
+    "delayDistribution": {
+      "type": "uniform",
+      "lower": 15,
+      "upper": 25
+    },
+    //delay por chunked
+    "chunkedDribbleDelay": {
+      "numberOfChunks": 5,
+      "totalDuration": 1000
+    },
+    //bad response
+    "fault": "MALFORMED_RESPONSE_CHUNK",
+
+    "bodyFileName": "body-request-faults.json",
+    "headers": {
+      "Server": "Custom.com",
+      "Date": "Mon, 20 Nov 2017 23:25:07 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Status": "200 OK",
+      "X-RateLimit-Reset": "1511223864",
+      "Cache-Control": "public, max-age=60, s-maxage=60",
+      "Last-Modified": "Tue, 14 Nov 2017 04:14:31 GMT",
+      "X-GitHub-Media-Type": "github.v3; format=json",
+      "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Security-Policy": "default-src 'none'",
+      "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload"
+    }
+  },
+  "uuid": "c03a6c5c-9978-342e-a942-4e96d4a043b2"
+}
