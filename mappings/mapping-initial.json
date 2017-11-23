@@ -1,0 +1,10 @@
+{
+    "request": {
+        "url": "/primeira-consulta",
+        "method" : "GET"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "body-initial.json"
+    }
+}

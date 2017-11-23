@@ -4,7 +4,7 @@
       "urlPattern": "/"
   },
   "response": {
-      "proxyBaseUrl" : "http://m.lojasrenner.com.br",
+      "proxyBaseUrl" : "http://m.olx.com.br",
       "additionalProxyRequestHeaders": {
           "User-Agent": "Mozilla/5.0 (iPhone; U; CPU iPhone)"
       }
