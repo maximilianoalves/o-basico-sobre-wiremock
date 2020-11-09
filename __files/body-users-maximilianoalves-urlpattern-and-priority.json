@@ -3,6 +3,7 @@
   "id": 11561118,
   "avatar_url": "https://avatars3.githubusercontent.com/u/11561118?v=4",
   "gravatar_id": "$(!RandomInteger)",
+  "date": "{{now}}",
   "url": "https://api.github.com/users/$(user)",
   "html_url": "https://github.com/$(user)",
   "followers_url": "https://api.github.com/users/$(user)/followers",
